@@ -46,6 +46,7 @@ def idle(min_duration, max_duration):
 
 
 def main(): 
+    time.sleep(2)
     try:
         sv.set_neutral()
         
