@@ -94,7 +94,6 @@ def main():
                     time.sleep(max(WOW_FISHING_TIME - (time.time() - last_cast_time), 0.3))
 
                 if np.random.rand() < IDLE_PROBABILITY:
-                    idle_counts += 1
                     idle(IDLE_TIME_MIN, IDLE_TIME_MAX)
                     last_cast_time = time.time()
 
