@@ -10,7 +10,7 @@ import normal_distribution as nd
 FORMAT = pyaudio.paInt16  # Format of audio data (16-bit)
 CHANNELS = 1              # Number of audio channels (1 for mono)
 RATE = 44100              # Sample rate (samples per second)
-THRESHOLD = 7000          # Adjust this threshold as needed
+THRESHOLD = 3000          # Adjust this threshold as needed
 CHECK_INTERVAL = 0.01     # Check interval in seconds
 
 REEL_TIME_MIN = 0.985
